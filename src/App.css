@@ -70,9 +70,14 @@ h6 {
   margin: 1rem 0;
   transition-timing-function: ease-out;
 }
-h6:hover {
+
+.icon {
+  color: whitesmoke;
+  transition-timing-function: all 0.5s ease-in-out;
+}
+
+h6:hover, .icon:hover {
   color: blue;
- 
   cursor: pointer;
 }
 
@@ -97,3 +102,4 @@ ul {
   justify-content: flex-start;
   align-items: flex-start;
 }
+

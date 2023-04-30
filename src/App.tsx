@@ -1,4 +1,3 @@
-import React from 'react';
 import profile from './profile_circle.png';
 import vandy from './vandy.png';
 import './App.css';
@@ -6,6 +5,10 @@ import background from './background.png';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function App() {
+
+  function handleClick(){
+    window.location.href = "http://stackoverflow.com";
+  }
   return (
     <div className="App" style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundPosition: 'center'}}>
         <div className='row' style={{backgroundColor: 'black'}} >
@@ -14,7 +17,7 @@ function App() {
             <div style={{borderBottom: 'none'}}>
               <h1 style={{color: 'whitesmoke'}}>Owen Leonard</h1>
               <h4>Software Engineer</h4>
-              <LinkedInIcon style={{color: 'whitesmoke'}}/>
+              <LinkedInIcon className='icon' onClick={handleClick}/>
             </div>
           </div>
         </div>
@@ -63,7 +66,6 @@ function App() {
                 <li>→ Web Development</li>
                 <li>→ Serverless</li>
                 <li>→ API Development</li>
-                <li>→ DevOps</li>
                 <li>→ Jenkins</li>
 
               </ul>
