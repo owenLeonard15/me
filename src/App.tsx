@@ -7,7 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 function App() {
 
   function handleClick(){
-    window.location.href = "http://stackoverflow.com";
+    window.location.href = "https://www.linkedin.com/in/owen-leonard15/";
   }
   return (
     <div className="App" style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundPosition: 'center'}}>
@@ -16,8 +16,10 @@ function App() {
             <img src={profile} style={{height: '7rem', paddingRight: '2rem'}} />
             <div style={{borderBottom: 'none'}}>
               <h1 style={{color: 'whitesmoke'}}>Owen Leonard</h1>
-              <h4>Software Engineer</h4>
-              <LinkedInIcon className='icon' onClick={handleClick}/>
+              <div style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-start', flexWrap: 'nowrap'}}>
+                <h4>Software Engineer</h4>
+                <LinkedInIcon className='icon' onClick={handleClick}/>
+              </div>
             </div>
           </div>
         </div>
@@ -36,13 +38,14 @@ function App() {
             <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'center', marginTop: '2rem'}}>
               <h2>Software Engineer Intern, Capital One</h2>
               <h5>Summer 2020</h5>
-              <p>Designed and deployed an internal dashboard to track AWS resource costs across accounts. Learned a lot about AWS and earned my AWS Solutions Architect certifcation.</p>
+              <p>Designed and deployed an internal dashboard to track AWS resource costs across accounts. I learned a lot about AWS in the process and earned my AWS Solutions Architect certifcation.</p>
             </div>
             <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'center', marginTop: '2rem'}}>
               <h2>Software Engineer Intern, Dick's Sporting Goods</h2>
               <h5>Summer 2019</h5>
               <p>I developed API and front end features related to DSG's customer loyalty program within their newly redesigned POS (point of sale)
-                system.
+                system. The new POS was intended for use in stores and eventually in pop-locations on mobile devices. I particularly enjoyed building a UI components in React Native to be flexible enough to 
+                accomodate multiple use cases. 
               </p>
             </div>
           </div>
@@ -62,12 +65,11 @@ function App() {
               <h3>DOMAINS OF EXPERIENCE</h3>
               <ul>
                 <li>→ Data Engineering</li>
-                <li>→ Distributed Systems</li>
-                <li>→ Web Development</li>
-                <li>→ Serverless</li>
                 <li>→ API Development</li>
-                <li>→ Jenkins</li>
-
+                <li>→ Web Development</li>
+                <li>→ Distributed Systems</li>
+                <li>→ Serverless</li>
+                <li>→ Object Oriented Programming</li>
               </ul>
             </div>
             <div className='list'>
