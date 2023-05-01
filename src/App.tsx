@@ -44,8 +44,7 @@ function App() {
               <h2>Software Engineer Intern, Dick's Sporting Goods</h2>
               <h5>Summer 2019</h5>
               <p>I developed API and front end features related to DSG's customer loyalty program within their newly redesigned POS (point of sale)
-                system. The new POS was intended for use in stores and eventually in pop-locations on mobile devices. I particularly enjoyed building a UI components in React Native to be flexible enough to 
-                accomodate multiple use cases. 
+                system. The new POS was intended for use in stores and eventually in pop-locations on mobile devices. 
               </p>
             </div>
           </div>
