@@ -30,7 +30,7 @@ function App() {
               <h2>Software Engineer, Capital One</h2>
               <h5>2021 - Present</h5>
               <p>Currently, I'm working on a backend/data engineering team which develops the data pipeline for credit card application data.</p>
-                During my first year at Capital One, I worked in enterprise platforms where I developed APIs and
+                During my first year at Capital One, I worked on enterprise platforms, developing APIs and
                 internal tooling for microservices for the web and mobile applications. 
               
 
