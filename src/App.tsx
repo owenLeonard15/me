@@ -1,8 +1,11 @@
 import profile from './profile_circle.png';
 import vandy from './vandy.png';
+import capitalone from './c1_logo.png';
+import dsg from './dsg_logo.png';
 import './App.css';
 import background from './background.png';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 function App() {
 
@@ -27,32 +30,46 @@ function App() {
           <div className="content">
             <h3>EXPERIENCE</h3>
             <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'center'}}>
-              <h2>Software Engineer, Capital One</h2>
+              <img src={capitalone} alt="capital one logo" style={{height: '3rem'}}/>
+              <h2>Software Engineer</h2>
               <h5>2021 - Present</h5>
-              <p>Currently, I'm working on a backend/data engineering team which develops the data pipeline for credit card application data.</p>
+              <p>Currently, I'm working on a backend/data engineering team which develops the data pipeline for credit card application data.
                 During my first year at Capital One, I worked on enterprise platforms, developing APIs and
                 internal tooling for microservices for the web and mobile applications. 
-              
-
+              </p>
             </div>
             <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'center', marginTop: '2rem'}}>
-              <h2>Software Engineer Intern, Capital One</h2>
+              <h2>Software Engineer Intern</h2>
               <h5>Summer 2020</h5>
               <p>Designed and deployed an internal dashboard to track AWS resource costs across accounts. I learned a lot about AWS in the process and earned my AWS Solutions Architect certifcation.</p>
             </div>
             <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'center', marginTop: '2rem'}}>
-              <h2>Software Engineer Intern, Dick's Sporting Goods</h2>
+              <img src={dsg} alt="dsg logo" style={{height: '3.5rem'}}/>
+              <h2>Software Engineer Intern</h2>
               <h5>Summer 2019</h5>
               <p>I developed API and front end features related to DSG's customer loyalty program within their newly redesigned POS (point of sale)
-                system. The new POS was intended for use in stores and eventually in pop-locations on mobile devices. 
+                system. The new POS was intended to replace existing in-store systems and eventually be used in pop-locations on mobile devices. 
               </p>
             </div>
           </div>
         </div>
         <div className='row'>
           <div className="content">
+            <h3>PROJECTS</h3>
+            <h2>TikTok Hashtag Dashboard</h2>
+            <h4 style={{fontSize: '1rem'}}>Web dashboard which collects, aggregates, and displays data on 
+              thousands of TikTok hashtags. Used by analysts and external clients at <a style={{fontWeight: 'bolder', color: 'blue'}} href='https://dcdx.co/'>dcdx</a>
+            </h4> 
+            <a  href='https://github.com/owenLeonard15/TikTokDashboard'>
+              <h6 style={{display: 'flex', flexDirection: 'row', flexWrap: 'nowrap', alignItems: 'center', justifyContent: 'space-between'}}>→ View Work <GitHubIcon style={{marginLeft: '10px'}}/></h6>
+              
+            </a>  
+          </div>
+        </div>
+        <div className='row'>
+          <div className="content">
             <h3>EDUCATION</h3>
-            <img src={vandy} style={{height: '4rem'}}/>
+            <img src={vandy} alt="vandy logo" style={{height: '4rem'}}/>
             <h2>Vanderbilt University</h2>
             <h4 style={{fontSize: '1rem'}}>Bachelor of Science, Computer Science</h4>    
             <h5>Graduated 2021</h5>

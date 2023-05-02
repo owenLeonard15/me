@@ -104,3 +104,16 @@ ul {
   align-items: flex-start;
 }
 
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+a:visited {
+  color: black
+}
+
