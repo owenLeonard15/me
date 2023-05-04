@@ -13,11 +13,6 @@ function App() {
   function handleClick(){
     window.location.href = "https://www.linkedin.com/in/owen-leonard15/";
   }
-
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
-  
   return (
     <div className="App" style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundPosition: 'center'}}>
         <div className='row' style={{backgroundColor: 'black'}} >
