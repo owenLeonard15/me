@@ -58,9 +58,9 @@ function App() {
           <div className="content">
             <h3>PROJECTS</h3>
             <h2>TikTok Hashtag Dashboard</h2>
-            <h4 style={{fontSize: '1rem'}}>Web dashboard which collects, aggregates, and displays data on 
+            <p style={{fontSize: '1rem'}}>Web dashboard which collects, aggregates, and displays data on 
               thousands of TikTok hashtags. Created for analysts and external clients at <a style={{fontWeight: 'bolder', color: 'blue'}} href='https://dcdx.co/'>dcdx</a>
-            </h4> 
+            </p> 
             <a  href='https://github.com/owenLeonard15/TikTokDashboard'>
               <h6 style={{display: 'flex', flexDirection: 'row', flexWrap: 'nowrap', alignItems: 'center', justifyContent: 'space-between'}}>→ View Project <GitHubIcon style={{marginLeft: '10px'}}/></h6>
             </a>  
