@@ -1,3 +1,4 @@
+import * as React from 'react';
 import profile from './profile_circle.png';
 import vandy from './vandy.png';
 import capitalone from './c1_logo.png';
@@ -12,6 +13,11 @@ function App() {
   function handleClick(){
     window.location.href = "https://www.linkedin.com/in/owen-leonard15/";
   }
+
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+  
   return (
     <div className="App" style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundPosition: 'center'}}>
         <div className='row' style={{backgroundColor: 'black'}} >
@@ -58,11 +64,10 @@ function App() {
             <h3>PROJECTS</h3>
             <h2>TikTok Hashtag Dashboard</h2>
             <h4 style={{fontSize: '1rem'}}>Web dashboard which collects, aggregates, and displays data on 
-              thousands of TikTok hashtags. Used by analysts and external clients at <a style={{fontWeight: 'bolder', color: 'blue'}} href='https://dcdx.co/'>dcdx</a>
+              thousands of TikTok hashtags. Created for analysts and external clients at <a style={{fontWeight: 'bolder', color: 'blue'}} href='https://dcdx.co/'>dcdx</a>
             </h4> 
             <a  href='https://github.com/owenLeonard15/TikTokDashboard'>
-              <h6 style={{display: 'flex', flexDirection: 'row', flexWrap: 'nowrap', alignItems: 'center', justifyContent: 'space-between'}}>→ View Work <GitHubIcon style={{marginLeft: '10px'}}/></h6>
-              
+              <h6 style={{display: 'flex', flexDirection: 'row', flexWrap: 'nowrap', alignItems: 'center', justifyContent: 'space-between'}}>→ View Project <GitHubIcon style={{marginLeft: '10px'}}/></h6>
             </a>  
           </div>
         </div>
