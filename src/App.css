@@ -23,9 +23,10 @@ h1, h2, h3, h4, h5, p{
   margin: 0
 }
 h1 {
-  font-size: 1.9rem;
-  font-weight: 400;
+  font-size: 1.3rem;
+  font-weight: 500;
   text-align: left;
+  letter-spacing: .1rem;
 }
 h2 {
   font-size: 1.45rem;
@@ -75,13 +76,13 @@ h6 {
 }
 
 .icon {
-  color: whitesmoke;
+  color: black;
   transition: 0.5s;
   transition-timing-function: ease-out;
+  padding-right: 25px;
 }
 
 h6:hover, .icon:hover{
-  color: blue;
   cursor: pointer;
 }
 

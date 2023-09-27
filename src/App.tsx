@@ -14,18 +14,12 @@ function App() {
     window.location.href = "https://www.linkedin.com/in/owen-leonard15/";
   }
   return (
-    <div className="App" style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundPosition: 'center'}}>
-        <div className='row' style={{backgroundColor: 'black'}} >
-          <div className="content" style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-start'}} >
-            <img src={profile} style={{height: '7rem', paddingRight: '2rem'}} />
-            <div style={{borderBottom: 'none'}}>
-              <h1 style={{color: 'whitesmoke'}}>Owen Leonard</h1>
-              <div style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-start', flexWrap: 'nowrap'}}>
-                <h4>Software Engineer</h4>
-                <LinkedInIcon className='icon' onClick={handleClick}/>
-              </div>
-            </div>
-          </div>
+    <div className="App" style={{display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundColor: "white", backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundPosition: 'center'}}>
+        <div style={{backgroundColor: 'white', width: "100%", height: '60px', position: 'fixed', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderBottom: 'solid 1px #e5e5e5'}} >
+              {/* <img src={profile} style={{height: '15rem', paddingRight: '2rem'}} /> */}
+              <LinkedInIcon style={{visibility: "hidden"}} className='icon' onClick={handleClick}/>
+              <h1 style={{color: 'black'}}>OWEN LEONARD</h1>
+              <LinkedInIcon className='icon' onClick={handleClick}/>
         </div>
         <div className='row'>
           <div className="content">
@@ -61,9 +55,9 @@ function App() {
             <p style={{fontSize: '1rem'}}>Web dashboard which collects, aggregates, and displays data on 
               thousands of TikTok hashtags. Created for analysts and external clients at <a style={{fontWeight: 'bolder', color: 'blue'}} href='https://dcdx.co/'>dcdx</a>
             </p> 
-            <a  href='https://github.com/owenLeonard15/TikTokDashboard'>
+            {/* <a  href='https://github.com/owenLeonard15/TikTokDashboard'>
               <h6 style={{display: 'flex', flexDirection: 'row', flexWrap: 'nowrap', alignItems: 'center', justifyContent: 'space-between'}}>→ View Project <GitHubIcon style={{marginLeft: '10px'}}/></h6>
-            </a>  
+            </a>   */}
           </div>
         </div>
         <div className='row'>
