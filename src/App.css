@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  height: 90vh;
+  margin-top: 5vh;
 }
 
 .content {
@@ -13,10 +15,10 @@
   justify-content: flex-start;
   align-items: flex-start;
   min-height: 10vh;
+  background-color: white;
 }
 .row {
   width: 100%;
-  border-bottom: 1px solid black;
 }
 
 h1, h2, h3, h4, h5, p{
@@ -35,13 +37,14 @@ h2 {
 }
 
 h3 {
-  color: gray;
+  color: black;
   font-weight: bold;
   font-size: 0.94rem; 
   letter-spacing: 0.1rem;
   padding: 20px 0;
   text-align: left;
   white-space: nowrap;
+  font-style: oblique;
 }
 
 
@@ -53,7 +56,6 @@ h4 {
   font-weight: normal;
   line-height: 1.65;
   text-align: left;
-  white-space: nowrap;
 }
 
 h5 {
@@ -120,4 +122,3 @@ a:link, a:visited, a:hover, a:active {
 a:visited {
   color: black
 }
-
