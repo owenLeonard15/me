@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.33f4f975.css",
-    "main.js": "/static/js/main.576b7923.js",
+    "main.js": "/static/js/main.7e0675e4.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/dsg_logo.png": "/static/media/dsg_logo.11148c41b397d4d961fd.png",
     "static/media/owen-logo.png": "/static/media/owen-logo.612dfdd4e157c0a5d722.png",
     "static/media/c1_logo.png": "/static/media/c1_logo.69c413b964f8de2970ac.png",
     "index.html": "/index.html",
     "main.33f4f975.css.map": "/static/css/main.33f4f975.css.map",
-    "main.576b7923.js.map": "/static/js/main.576b7923.js.map",
+    "main.7e0675e4.js.map": "/static/js/main.7e0675e4.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.33f4f975.css",
-    "static/js/main.576b7923.js"
+    "static/js/main.7e0675e4.js"
   ]
 }
